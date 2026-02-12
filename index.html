@@ -10,7 +10,7 @@
     <div id="page" class="container">
       <nav class="navbar pt-5" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <div class="button">Dark Mode</div>
+          <div id="dark-button" class="button">Dark Mode</div>
         </div>
       </nav>
       
@@ -22,16 +22,16 @@
       </section>
 
       <div id="action-buttons" class="hidden">
-        <button class="button">Delete Message(s)</button>
-        <button class="button">Mark as Read</button>
+        <button id="delete-button" class="button">Delete Message(s)</button>
+        <button id="markasread-button" class="button">Mark as Read</button>
       </div>
 
       <section id="inbox" class="hero mt-5">
         <div class="hero-body mx-5 py-2 is-flex is-justify-content-space-between is-align-items-center">
           <div id="inbox-heading" class="is-flex is-align-items-center">
-            <div id="checkbox" class="mr-5">
+            <div  class="mr-5">
               <label class="checkbox">
-                <input type="checkbox">
+                <input id="checkbox" type="checkbox">
               </label>
             </div>
             <div id="sender">
@@ -81,9 +81,9 @@
       <section id="inbox" class="hero mt-1 is-read">
         <div class="hero-body mx-5 py-2 is-flex is-justify-content-space-between is-align-items-center">
           <div id="inbox-heading" class="is-flex is-align-items-center">
-            <div id="checkbox" class="mr-5">
+            <div  class="mr-5">
               <label class="checkbox">
-                <input type="checkbox" disabled>
+                <input id="checkbox" type="checkbox" disabled>
               </label>
             </div>
             <div id="sender">

@@ -44,3 +44,12 @@ body {
 .hidden {
   display: none;
 }
+
+.custom {
+  font-size: xx-small;
+}
+
+.dark-mode {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
